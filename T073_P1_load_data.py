@@ -1,9 +1,3 @@
-# Written by: Firas El-Ezzi (101239531)
-# Reviewed by: Dean Georgopoulos (101230584)
-# Reviewed by: David Edwards (101230530)
-# Reviewed by: Shivam Patel (101243851)
-
-
 
 def book_category_dictionary(filename: str) -> dict[str:list[dict[str:str]]]:
     """
