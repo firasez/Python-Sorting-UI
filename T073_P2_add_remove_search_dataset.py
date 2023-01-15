@@ -1,4 +1,3 @@
-# Group Memebers: Firas El-Ezzi (101239531), Dean Georgopoulos (101230584), David Edwards (101230530), Shivam Patel (101243851)
 
 # Import
 from T073_P1_load_data import book_category_dictionary
@@ -9,7 +8,6 @@ FOUR_TESTS = 4
 TOTAL_TEST = 2
 
 
-# Function 1, Written by: Firas El-Ezzi (101239531) (Has been corrected for error)
 def add_book(book_dic: dict, tuple: tuple) -> str:
     """
     The function returns the updated dictionary with the newly added book and prints a message stating, “The book has been added correctly” or “There was an error adding the book”.
@@ -39,9 +37,7 @@ def add_book(book_dic: dict, tuple: tuple) -> str:
         print("The book has been added successfully")
         return book_dic
 
-    # Function 2, Written by: Firas El-Ezzi (101239531)
-
-
+    
 def remove_book(book_dict: dict, title: str, category: str) -> str:
     """
     The function returns the updated dictionary excluding the removed book and prints a message stating, “The book has been removed correctly” or “There was an error removing the book. Book not found.”
@@ -69,7 +65,6 @@ def remove_book(book_dict: dict, title: str, category: str) -> str:
         return book_dict
 
 
-# Function 3, Written by: Dean Georgopoulos (101230584)
 def get_books_by_category(book_dict: dict, category: str) -> int:
     """
     Returns the number of books in the selected category, from the case 1 "T073_P1_load_data" module.
@@ -93,8 +88,6 @@ def get_books_by_category(book_dict: dict, category: str) -> int:
         book_counter += 1
     return total
 
-
-# Function 4, Written by: Dean Georgopoulos (101230584)
 def get_books_by_rate(book_dict: dict, rate: int) -> int:
     """
     Will return al books and information of the book that has a rate greater to or equal to and less then one unit higher than the inputted rate.
@@ -121,7 +114,6 @@ def get_books_by_rate(book_dict: dict, rate: int) -> int:
     return total_books
 
 
-# Function 5, Written by: David Edwards (101230530)
 def get_books_by_title(book_dict: dict, title: str) -> int:
     """
     Returns the number of books with the matching title, from the case 1 "T073_P1_load_data" module.
@@ -148,7 +140,6 @@ def get_books_by_title(book_dict: dict, title: str) -> int:
     return total
 
 
-# Function 6, Written by: David Edwards (101230530)
 def get_books_by_author(book_dict: dict, author: str) -> int:
     """
     Returns the number of books with the matching author, from the case 1 "T073_P1_load_data" module.
@@ -175,7 +166,6 @@ def get_books_by_author(book_dict: dict, author: str) -> int:
     return total
 
 
-# Function 7, Written by Shivam Patel (101243851)
 def get_books_by_publisher(book_dict: dict, publisher: str) -> int:
     """
     Returns the number of books published by the publisher, from the case 1 "T073_P1_load_data" module.
@@ -204,8 +194,6 @@ def get_books_by_publisher(book_dict: dict, publisher: str) -> int:
 
     return total
 
-
-# Function 8, Written by: Shivam Patel(101243851)
 def get_all_categories_for_book_title(book_dict: dict, title: str) -> int:
     """
     Returns the number of books based on the title, from the case 1 "T073_P1_load_data" module.
