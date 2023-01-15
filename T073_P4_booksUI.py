@@ -1,4 +1,3 @@
-# Group Members: Firas El-Ezzi (101239531), Dean Georgopoulos (101230584), David Edwards (101230530), Shivam Patel (101243851)
 
 # Import function.
 from T073_P1_load_data import *
