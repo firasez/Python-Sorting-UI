@@ -1,4 +1,3 @@
-#Group Memebers: Firas El-Ezzi (101239531), Dean Georgopoulos (101230584), David Edwards (101230530), Shivam Patel (101243851)
 
 #Imports
 from T073_P1_load_data import book_category_dictionary
@@ -45,7 +44,6 @@ def sort_books_title(dictionary: dict) -> list:
     return lst
 
 
-#Function 2, sort_books_publisher written by Shivam Patel-101243851
 def sort_books_publisher(dictionary: dict) -> list:
     """
     Returns the list of dictionaries where the category key will have a list and
@@ -93,7 +91,6 @@ def sort_books_publisher(dictionary: dict) -> list:
     return finalsortedlst
 
 
-# Function 3, sort_books_author written by Firas El-Ezzi (101239531)
 def sort_books_author(dictionary: dict) -> list:
     """
     Returns the list of dictionaries where the category key will have a list and
@@ -141,7 +138,6 @@ def sort_books_author(dictionary: dict) -> list:
     return finalsortedlst
 
 
-#Function 4, sort_books_ascending_rate written by Dean Georgopoulos (101230584)
 def sort_books_ascending_rate(dictionary: dict) -> list:
     """
     Sorts the inputted dictionary by making the category key of a book the list of all its categories, and then by rate in ascending order to return a list empty of dublicated books that is organized by ascending rate. Note that "N/A" is considered the lowest and that in teh case that two rates are the same, the two books of same rate will be sorted title in alphabetical order.
